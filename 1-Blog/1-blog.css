@@ -63,6 +63,17 @@ footer {
         line-height: 19px;
 }
 
+.brand {
+        color: #FFFFFF;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+}
+
 .hero {
         color: #FFFFFF;
         font-family: Roboto;
@@ -101,10 +112,6 @@ footer {
 
 .last {
         margin-bottom: 103px;
-}
-
-.symbol {
-        margin-top: 78px;
 }
 
 .name {
