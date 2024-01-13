@@ -1,0 +1,97 @@
+
+body {
+        background: linear-gradient(0deg, #F39494, #F39494),
+                linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+                linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
+}
+
+main  {                          
+        background: #FFFEFE;
+        width: 582px;
+        height: 573px;
+        border-radius: 10px;
+}   
+
+h1 {
+        color: #333333;
+        font-family: Open , sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+
+button {
+        background: #089FE0;
+        color: #FFFFFF;
+        font-family: Open , sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+
+.entrance {
+        color: #089FE0;
+        font-family: Open , sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.question {
+        color: #666666;
+        font-family: Open , sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.company {
+        color: #333333;
+        font-family: Open , sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+#name, #surname, #email {
+        background: #F5F5F5;
+        color: #999999;
+        font-family: Open , sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.condition {
+        color: #089FE0;
+        font-family: Open , sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.read {
+        color: #666666;
+        font-family: Open , sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+}
