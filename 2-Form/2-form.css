@@ -1,3 +1,6 @@
+* {
+        box-sizing: border-box;
+}
 
 body {
         background: linear-gradient(0deg, #F39494, #F39494),
@@ -5,27 +8,41 @@ body {
                 linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
 }
 
-main  {                          
+main {
         background: #FFFEFE;
         width: 582px;
         height: 573px;
         border-radius: 10px;
-}   
+        margin: 225px 429px 226px 429px;
+}
 
 h1 {
         color: #333333;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 49px;
         letter-spacing: 0em;
         text-align: center;
+        padding: 72px 106px 0px 93px;
+        margin-bottom: 0px;
+}
+
+p {
+        margin: 0px 172px 47px 173px;
 }
 
 button {
-        background: #089FE0;
-        color: #FFFFFF;
-        font-family: Open , sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+}
+
+.question {
+        color: #666666;
+        font-family: Open Sans, sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 25px;
@@ -35,63 +52,161 @@ button {
 
 .entrance {
         color: #089FE0;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 0em;
-        text-align: left;
+        text-align: center;
 }
 
-.question {
-        color: #666666;
-        font-family: Open , sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
+.container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        column-gap: 22px;
+        justify-content: center;
 }
 
-.company {
+.item {
+
+        margin-bottom: 22px;
+}
+
+.item1 {
         color: #333333;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 16px;
         font-weight: 600;
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
+        width: 394px;
+        height: 44px;
+        top: 424px;
+        left: 522px;
+        border-radius: 5px;
+        border: 1px solid #F5F5F5;
+        padding: 9px 150px 9px 11px;
+
 }
 
-#name, #surname, #email {
+.item2,
+.item3 {
+        display: inline-block;
+}
+
+.item2 #name {
         background: #F5F5F5;
-        color: #999999;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 16px;
         font-style: italic;
         font-weight: 400;
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
+        color: #999999;
+        height: 44px;
+        top: 499px;
+        left: 533px;
+        border: 1px;
+        border-radius: 5px;
+        width: 196px;
+        padding: 9px 36px 9px 11px;
 }
 
-.condition {
+
+.item3 #surname {
+        background: #F5F5F5;
+        font-family: Open Sans, sans-serif;
+        color: #999999;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        height: 44px;
+        top: 499px;
+        left: 730px;
+        border-radius: 5px;
+        border: 1px;
+        width: 196px;
+        padding: 9px 35px 9px 10px;
+}
+
+
+.item4 #email {
+        background: #F5F5F5;
+        color: #999999;
+        font-family: Open Sans, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: 1px;
+        border-radius: 5px;
+        width: 395px;
+        height: 44px;
+        top: 556px;
+        left: 522px;
+        border-radius: 5px;
+        padding: 9px 232px 9px 11px;
+}
+
+.item5 button {
+        background: #089FE0;
+        color: #FFFFFF;
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 398.5px;
+        height: 44px;
+        top: 622px;
+        left: 522px;
+        border-radius: 5px;
+        border: solid #FFFFFF;
+}
+
+.button-img {
+        float: right;
+}
+
+.item6 .condition {
         color: #089FE0;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 19px;
         letter-spacing: 0em;
         text-align: left;
         text-decoration: none;
+        margin-bottom: 91px;
 }
 
-.read {
+.item6 .read {
         color: #666666;
-        font-family: Open , sans-serif;
+        font-family: Open Sans, sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 19px;
         letter-spacing: 0em;
         text-align: left;
 }
+
+.item6 {
+        width: 371px;
+        height: 19px;
+        top: 688px;
+        left: 522px;
+        border-radius: 5px;
+        border: 1px;
+}
+
+
