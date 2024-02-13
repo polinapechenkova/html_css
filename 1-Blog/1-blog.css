@@ -6,11 +6,11 @@
 
 body {
         background: linear-gradient(180deg, #374151 0%, #111827 100%);
-        width: 1440px;
 }
 
 header {
         padding-top: 71px;
+        padding-bottom: 69px;
 }
 
 nav {
@@ -48,20 +48,6 @@ li {
         text-align: left;
 }
 
-input {
-        color: #FFFFFF;
-        background: #1F293799;
-
-        height: 40px;
-        border-radius: 100px;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-}
-
 h1 {
         color: #FFFFFF;
         font-family: Roboto;
@@ -73,14 +59,10 @@ h1 {
         margin-bottom: 30px;
 }
 
-main {
-        padding-right: 272px;
-        padding-left: 272px;
-}
-
 p {
         text-align: center;
         margin-bottom: 30px;
+        width: 708px;
 }
 
 footer {
@@ -110,16 +92,6 @@ footer {
         align-items: baseline;
 }
 
-.blog,
-.also {
-        color: #FFFFFF;
-        font-family: Roboto;
-        font-weight: 400;
-        letter-spacing: 0em;
-        text-align: left;
-        text-decoration: none;
-}
-
 .brand {
         color: #FFFFFF;
         font-family: Source Sans Pro;
@@ -135,6 +107,16 @@ footer {
         padding: 6px;
 }
 
+.blog,
+.also {
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+}
+
 .blog {
         font-size: 18px;
         line-height: 21px;
@@ -145,30 +127,39 @@ footer {
         line-height: 19px;
 }
 
-.search-label {
-        display: flex;
-        align-items: center;
-        background-color: #1F293799;
+.search-container {
+        position: relative;
+}
+
+.search-image {
+        position: absolute;
+        margin-top: 12px;
+        padding-left: 18px;
+}
+
+.search-input {
+        border: none;
+        color: #FFFFFF;
+        background: #1F293799;
+        height: 40px;
         border-radius: 100px;
-        padding: 0 16px;
         width: 224px;
         height: 40px;
-        gap: 5px;
+        top: 71px;
 }
 
-
-.search-label img {
-        width: 16px;
-        height: 16px;
-}
-
-.search-label input {
-        flex: 1;
-        margin-left: 8px;
-        border: none;
-        background-color: transparent;
-        color: #FFFFFF;
+input::placeholder {
+        width: 47px;
+        height: 19px;
+        opacity: 0.6px;
         font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        padding-left: 49px;
 }
 
 .hero {
@@ -179,11 +170,10 @@ footer {
         line-height: 16px;
         letter-spacing: 0em;
         text-align: center;
-        margin-top: 80px;
         margin-bottom: 14px;
 }
 
-.container2 {
+.person {
         display: flex;
         justify-content: center;
         margin-bottom: 28px;
@@ -215,11 +205,16 @@ footer {
         text-align: left;
 }
 
+.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
 .img {
         margin-bottom: 69px;
         text-align: center;
-        width: 896px;
-        height: 594px;
         border: 5px;
 }
 

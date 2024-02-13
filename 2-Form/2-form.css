@@ -10,10 +10,12 @@ body {
 
 main {
         background: #FFFEFE;
+        border-radius: 10px;
+        padding-top: 72px;
+        padding-bottom: 91px;
         width: 582px;
         height: 573px;
-        border-radius: 10px;
-        margin: 225px 429px 226px 429px;
+        margin: auto;
 }
 
 h1 {
@@ -24,8 +26,7 @@ h1 {
         line-height: 49px;
         letter-spacing: 0em;
         text-align: center;
-        padding: 72px 106px 0px 93px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
 }
 
 p {
@@ -60,6 +61,7 @@ button {
         line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
+        margin-bottom: 47px;
 }
 
 .container {
@@ -67,16 +69,16 @@ button {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        column-gap: 22px;
         justify-content: center;
 }
 
 .item {
-
         margin-bottom: 22px;
+        width: 394px;
+        height: 44px;
 }
 
-.item1 {
+.item1 #company {
         color: #333333;
         font-family: Open Sans, sans-serif;
         font-size: 16px;
@@ -84,19 +86,18 @@ button {
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
-        width: 394px;
-        height: 44px;
-        top: 424px;
-        left: 522px;
         border-radius: 5px;
         border: 1px solid #F5F5F5;
-        padding: 9px 150px 9px 11px;
-
+        padding-left: 11px;
+        height: 44px;
+        width: 394px;
 }
 
-.item2,
-.item3 {
-        display: inline-block;
+.forEach {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: calc((394px - 2px) / 2);
 }
 
 .item2 #name {
@@ -110,8 +111,6 @@ button {
         text-align: left;
         color: #999999;
         height: 44px;
-        top: 499px;
-        left: 533px;
         border: 1px;
         border-radius: 5px;
         width: 196px;
@@ -130,14 +129,19 @@ button {
         letter-spacing: 0em;
         text-align: left;
         height: 44px;
-        top: 499px;
-        left: 730px;
         border-radius: 5px;
         border: 1px;
         width: 196px;
         padding: 9px 35px 9px 10px;
 }
 
+.item2 {
+        margin-right: 1px;
+}
+
+.item3 {
+        margin-left: 1px;
+}
 
 .item4 #email {
         background: #F5F5F5;
@@ -153,8 +157,6 @@ button {
         border-radius: 5px;
         width: 395px;
         height: 44px;
-        top: 556px;
-        left: 522px;
         border-radius: 5px;
         padding: 9px 232px 9px 11px;
 }
@@ -170,8 +172,6 @@ button {
         text-align: center;
         width: 398.5px;
         height: 44px;
-        top: 622px;
-        left: 522px;
         border-radius: 5px;
         border: solid #FFFFFF;
 }
@@ -190,7 +190,6 @@ button {
         letter-spacing: 0em;
         text-align: left;
         text-decoration: none;
-        margin-bottom: 91px;
 }
 
 .item6 .read {
@@ -206,8 +205,7 @@ button {
 .item6 {
         width: 371px;
         height: 19px;
-        top: 688px;
-        left: 522px;
         border-radius: 5px;
         border: 1px;
+        text-align: center;
 }
