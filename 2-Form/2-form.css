@@ -1,21 +1,24 @@
 * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
 }
 
 body {
         background: linear-gradient(0deg, #F39494, #F39494),
                 linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
                 linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 main {
         background: #FFFEFE;
         border-radius: 10px;
-        padding-top: 72px;
-        padding-bottom: 91px;
-        width: 582px;
-        height: 573px;
-        margin: auto;
+        max-width: 582px;
+        padding: 72px 95px 91px 95px;
 }
 
 h1 {
@@ -26,21 +29,11 @@ h1 {
         line-height: 49px;
         letter-spacing: 0em;
         text-align: center;
-        margin-bottom: 0;
 }
 
 p {
-        margin: 0px 172px 47px 173px;
-}
-
-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         text-align: center;
-        gap: 56px;
-        padding-right: 22px;
-        padding-left: 102px;
+        margin-bottom: 47px;
 }
 
 .question {
@@ -61,20 +54,16 @@ button {
         line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
-        margin-bottom: 47px;
 }
 
-.container {
+.formForItems {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
+        gap: 22px;
 }
 
 .item {
-        margin-bottom: 22px;
-        width: 394px;
+        max-width: 394px;
         height: 44px;
 }
 
@@ -89,15 +78,13 @@ button {
         border-radius: 5px;
         border: 1px solid #F5F5F5;
         padding-left: 11px;
+        width: 100%;
         height: 44px;
-        width: 394px;
 }
 
 .forEach {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        max-width: calc((394px - 2px) / 2);
+        gap: 2px;
 }
 
 .item2 #name {
@@ -110,10 +97,9 @@ button {
         letter-spacing: 0em;
         text-align: left;
         color: #999999;
-        height: 44px;
         border: 1px;
         border-radius: 5px;
-        width: 196px;
+        width: 100%;
         padding: 9px 36px 9px 11px;
 }
 
@@ -128,19 +114,10 @@ button {
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
-        height: 44px;
         border-radius: 5px;
         border: 1px;
-        width: 196px;
         padding: 9px 35px 9px 10px;
-}
-
-.item2 {
-        margin-right: 1px;
-}
-
-.item3 {
-        margin-left: 1px;
+        width: 100%;
 }
 
 .item4 #email {
@@ -155,31 +132,33 @@ button {
         text-align: left;
         border: 1px;
         border-radius: 5px;
-        width: 395px;
-        height: 44px;
         border-radius: 5px;
         padding: 9px 232px 9px 11px;
+        width: 100%;
 }
 
-.item5 button {
+.item5 {
+        padding: 9px 11px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
         background: #089FE0;
         color: #FFFFFF;
-        font-family: Open Sans, sans-serif;
         font-size: 18px;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
-        width: 398.5px;
-        height: 44px;
-        border-radius: 5px;
         border: solid #FFFFFF;
+        width: 100%;
+        text-align: center;
 }
 
 .button-img {
-        float: right;
-        border: 3px;
+        position: absolute;
+        margin-left: 56px;
 }
+
 
 .item6 .condition {
         color: #089FE0;
@@ -203,9 +182,13 @@ button {
 }
 
 .item6 {
-        width: 371px;
         height: 19px;
         border-radius: 5px;
         border: 1px;
         text-align: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
 }
