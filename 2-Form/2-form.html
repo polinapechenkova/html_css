@@ -5,34 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./2-Form.css">
+    <link rel="stylesheet" href="2-form.css">
 </head>
 
 <body>
     <main>
         <h1>Регистрация</h1>
+
         <p class="question">Уже есть аккаунт? <a href="#" class="entrance">Войти</a></p>
-        <p class="company">Моя компания:</p>
-        <form action="#">
-            <div>
-                <label for="name"></label>
-                <input type="name" id="name" name="name" placeholder="Имя" required>
-                <label for="surname"></label>
-                <input type="surname" name="surname" id="surname" placeholder="Фамилия" required>
-            </div>
-            <div>
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="E-mail" required>
-            </div>
-            <div>
-                <button>Зарегистрироваться</button>
-            </div>
-            <div>
-                <label for="agree" class="read">Я прочитал и принимаю <a href="#" class="condition">Условия
-                        использования</a></label>
-                <input type="checkbox" name="agree" id="agree" required>
-            </div>
-        </form>
+        <div>
+            <form action="#" class="formForItems">
+
+                <div class="item item1">
+                    <label for="company"></label>
+                    <input type="text" id="company" name="text" value="Моя компания:" required>
+                </div>
+
+                <div class="item forEach">
+                    <div class="item2">
+                        <label for="name"></label>
+                        <input type="name" id="name" name="name" placeholder="Имя" required>
+                    </div>
+                    <div class="item3">
+                        <label for="surname"></label>
+                        <input type="surname" name="surname" id="surname" placeholder="Фамилия" required>
+                    </div>
+                </div>
+
+                <div class="item item4">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <button class="item item5">
+                    Зарегистрироваться
+                    <img src="./img/arrow.png" alt="значок стрелки" class="button-img button">
+                </button>
+
+                <div class="item item6">
+                    <input type="checkbox" name="agree" id="agree" required>
+                    <label for="agree" class="read">Я прочитал и принимаю <a href="#" class="condition">Условия
+                            использования</a></label>
+                </div>
+            </form>
+        </div>
     </main>
 </body>
 
