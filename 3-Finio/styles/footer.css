@@ -76,18 +76,39 @@
 }
 
 .payment__visa {
-    height: 27px;
+    max-height: 27px;
     max-width: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+.payment__visa img {
+    height: 100%;
+    width: 100%;
 }
 
 .payment__mastercard {
-    height: 37px;
+    max-height: 37px;
     max-width: 48px;
+    height: 100%;
+    width: 100%;
+}
+
+.payment__mastercard img {
+    height: 100%;
+    width: 100%;
 }
 
 .payment__mir {
-    height: 23px;
+    max-height: 23px;
     max-width: 78px;
+    height: 100%;
+    width: 100%;
+}
+
+.payment__mir img {
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 960px) {

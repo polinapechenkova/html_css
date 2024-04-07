@@ -98,46 +98,18 @@
     margin-bottom: 40px;
 }
 
-/* Img marketplaces */
-
-.wb {
-    max-width: 206px;
-}
-
-.ozon {
-    max-width: 110px;
-}
-
-.yandex {
-    max-width: 153px;
-}
-
-.ali {
-    max-width: 155px;
-}
-
-@media (max-width: 1200px) {
-    .wb {
-        max-width: 163px;
-    }
-
-    .ozon {
-        max-width: 87px;
-    }
-
-    .yandex {
-        max-width: 121px;
-    }
-
-    .ali {
-        max-width: 123px;
-    }
-}
-
 /* Statistics */
 
 .statistics__img {
     max-width: 64px;
+    width: 100%;
+    max-height: 64px;
+    height: 100%;
+}
+
+.statistics__img img {
+    width: 100%;
+    height: 100%;
 }
 
 .statistics__h3 {
@@ -172,17 +144,44 @@
     margin: 0;
 }
 
+.advantages__h4 {
+    color: var(--rate-elements-color);
+    font-size: 19.18px;
+    font-weight: 800;
+    line-height: 26.86px;
+    margin: 0;
+    margin-bottom: 33px;
+}
 
 .advantages__self {
     position: relative;
 }
 
-.top-img {
+.advantages__img {
+    max-width: 644px;
+    width: 100%;
+    max-height: 444px;
+    height: 100%;
+}
+
+.advantages__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.advantages__top-img {
+    max-width: 450px;
     width: 100%;
     position: absolute;
     left: 15%;
     top: 25%;
 }
+
+.advantages__top-img img {
+    width: 100%;
+    height: 100%;
+}
+
 
 /* h2 */
 
@@ -211,7 +210,15 @@
 
 .accounting__img {
     max-width: var(--layout-width-rates);
+    width: 100%;
+    max-height: 640px;
+    height: 100%;
     margin-bottom: 64px;
+}
+
+.accounting__img img {
+    width: 100%;
+    height: 100%;
 }
 
 .accounting__p {
@@ -239,6 +246,8 @@
     flex-direction: column;
     gap: 24px;
     align-items: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 .comparison__element {
@@ -254,7 +263,19 @@
     line-height: 28.8px;
 }
 
-@media (max-width: 640px) {
+.comparison__img {
+    max-width: 20px;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+}
+
+.comparison__img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 860px) {
     .comparison {
         flex-direction: column;
         gap: 48px;
@@ -281,9 +302,11 @@
 
 .statistics-two__img {
     max-width: 80px;
+    width: 100%;
+    max-height: 80px;
+    height: 100%;
     margin-bottom: 24px;
 }
-
 
 /* Support */
 
@@ -409,6 +432,7 @@
     text-align: left;
     border-radius: 8px;
     width: 124px;
+    height: 29px;
 }
 
 .self_text {
@@ -448,6 +472,10 @@
 
 .rates_self {
     align-self: flex-end;
+}
+
+.card_blue {
+    background: var(--color-blue);
 }
 
 @media (max-width: 1200px) {

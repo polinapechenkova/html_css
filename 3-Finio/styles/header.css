@@ -30,6 +30,7 @@
 
     .header-wrapper {
         padding: 28px 24px 80px 24px;
+        margin: auto;
     }
 
     .header-wrapper__logo {
