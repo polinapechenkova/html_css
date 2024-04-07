@@ -155,6 +155,7 @@
 
 .advantages__self {
     position: relative;
+    margin-bottom: 32px;
 }
 
 .advantages__img {

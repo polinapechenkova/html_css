@@ -196,12 +196,12 @@
 
     .advantages__wrapper {
         flex-direction: column-reverse;
-        gap: 0px;
+        gap: 32px;
     }
 
     .advantages__wrapper-reverse {
         flex-direction: column-reverse;
-        gap: 0px;
+        gap: 32px;
     }
 
     .advantages__h2 {
@@ -213,7 +213,6 @@
     .advantages__img {
         max-width: 328px;
         max-height: 227px;
-        margin-bottom: 32px;
     }
 
     .advantages__top-img {
