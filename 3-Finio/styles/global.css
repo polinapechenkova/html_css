@@ -1,0 +1,54 @@
+:root {
+    --layout-width: 1304px;
+    --layout-width-rates: 1156px;
+    --hr-width: 1256px;
+    --card-width: 328px;
+    --rate-card-width: 369px;
+
+    --border-radius-12: 12px;
+    --border-radius-10: 10px;
+
+    --color-white: #FAFAFA;
+    --color-blue: #357EFE;
+    --color-yellow: #FFC736;
+    --color-black: #000000;
+    --color-green: #1ABC9C;
+
+    --color-hr-header: #FFFFFF29;
+    --color-hr-main: #4E5D7C14;
+
+    --menu-item-color: #FFFFFFCC;
+    --advantages-p-color: #4E5D7C80;
+    --support-color-text: #FFFFFFCC;
+    --rate-text-color: #FFFFFF99;
+    --rate-elements-color: #4E5D7C;
+
+    --footer-color-main: #FFFFFF80;
+    --footer-color-light: #FFFFFFB2;
+    --footer-hr-line: #FFFFFF14;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0;
+    background: var(--color-white);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
